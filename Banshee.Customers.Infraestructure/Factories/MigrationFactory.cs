@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.IO;
+using System.Text;
+
+namespace Banshee.Customers.Infraestructure.Factories
+{
+    internal static class MigrationFactory
+    {
+        public static string resourcesFolder = Path.Combine(AppContext.BaseDirectory, "Migration/Scripts/");
+
+        public static Evolve.Evolve Build(SqlConnection connection)
+        {
+            var evolve = new Evolve.Evolve(connection, null)
+            {
+                Command = Evolve.Configuration.CommandOptions.Migrate,
+                Locations = new[] { resourcesFolder },
+                OutOfOrder = true
+            };
+
+            return evolve;
+        }
+    }
+}

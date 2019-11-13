@@ -1,0 +1,8 @@
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Domain\bin\Debug\netstandard2.0\Banshee.Customers.Domain.deps.json
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Domain\bin\Debug\netstandard2.0\Banshee.Customers.Domain.dll
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Domain\bin\Debug\netstandard2.0\Banshee.Customers.Domain.pdb
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Domain\obj\Debug\netstandard2.0\Banshee.Customers.Domain.AssemblyInfoInputs.cache
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Domain\obj\Debug\netstandard2.0\Banshee.Customers.Domain.AssemblyInfo.cs
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Domain\obj\Debug\netstandard2.0\Banshee.Customers.Domain.dll
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Domain\obj\Debug\netstandard2.0\Banshee.Customers.Domain.pdb
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Domain\obj\Debug\netstandard2.0\Banshee.Customers.Domain.csprojAssemblyReference.cache

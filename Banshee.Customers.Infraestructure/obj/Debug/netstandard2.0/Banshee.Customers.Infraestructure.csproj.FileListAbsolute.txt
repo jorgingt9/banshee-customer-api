@@ -1,0 +1,11 @@
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Infraestructure\bin\Debug\netstandard2.0\Banshee.Customers.Infraestructure.deps.json
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Infraestructure\bin\Debug\netstandard2.0\Banshee.Customers.Infraestructure.dll
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Infraestructure\bin\Debug\netstandard2.0\Banshee.Customers.Infraestructure.pdb
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Infraestructure\bin\Debug\netstandard2.0\Banshee.Customers.Domain.dll
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Infraestructure\bin\Debug\netstandard2.0\Banshee.Customers.Domain.pdb
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Infraestructure\obj\Debug\netstandard2.0\Banshee.Customers.Infraestructure.csprojAssemblyReference.cache
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Infraestructure\obj\Debug\netstandard2.0\Banshee.Customers.Infraestructure.AssemblyInfoInputs.cache
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Infraestructure\obj\Debug\netstandard2.0\Banshee.Customers.Infraestructure.AssemblyInfo.cs
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Infraestructure\obj\Debug\netstandard2.0\Banshee.Customers.Infraestructure.csproj.CopyComplete
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Infraestructure\obj\Debug\netstandard2.0\Banshee.Customers.Infraestructure.dll
+D:\JorgeG\Fuentes\banshee-customers\banshee-customers\Banshee.Customers.Infraestructure\obj\Debug\netstandard2.0\Banshee.Customers.Infraestructure.pdb
