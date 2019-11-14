@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Evolve.Dialect;
+using Evolve.Migration;
+using System;
+using System.Data;
 using System.Data.SqlClient;
 using System.IO;
-using System.Text;
 
 namespace Banshee.Customers.Infraestructure.Factories
 {

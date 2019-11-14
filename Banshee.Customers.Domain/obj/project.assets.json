@@ -187,11 +187,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj",
+      "projectUniqueName": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj",
       "projectName": "Banshee.Customers.Domain",
-      "projectPath": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj",
+      "projectPath": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj",
       "packagesPath": "C:\\Users\\JorgeTaborda\\.nuget\\packages\\",
-      "outputPath": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Domain\\obj\\",
+      "outputPath": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",

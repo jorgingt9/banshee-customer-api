@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers\\Banshee.Customers.csproj": {}
+    "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers\\Banshee.Customers.csproj": {}
   },
   "projects": {
-    "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj": {
+    "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj",
+        "projectUniqueName": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj",
         "projectName": "Banshee.Customers.Domain",
-        "projectPath": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj",
+        "projectPath": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj",
         "packagesPath": "C:\\Users\\JorgeTaborda\\.nuget\\packages\\",
-        "outputPath": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Domain\\obj\\",
+        "outputPath": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -64,14 +64,14 @@
         }
       }
     },
-    "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Infraestructure\\Banshee.Customers.Infraestructure.csproj": {
+    "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Infraestructure\\Banshee.Customers.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Infraestructure\\Banshee.Customers.Infraestructure.csproj",
+        "projectUniqueName": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Infraestructure\\Banshee.Customers.Infraestructure.csproj",
         "projectName": "Banshee.Customers.Infraestructure",
-        "projectPath": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Infraestructure\\Banshee.Customers.Infraestructure.csproj",
+        "projectPath": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Infraestructure\\Banshee.Customers.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\JorgeTaborda\\.nuget\\packages\\",
-        "outputPath": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Infraestructure\\obj\\",
+        "outputPath": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -92,8 +92,8 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
-              "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj": {
-                "projectPath": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj"
+              "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj": {
+                "projectPath": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj"
               }
             }
           }
@@ -152,14 +152,14 @@
         }
       }
     },
-    "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers\\Banshee.Customers.csproj": {
+    "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers\\Banshee.Customers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers\\Banshee.Customers.csproj",
+        "projectUniqueName": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers\\Banshee.Customers.csproj",
         "projectName": "Banshee.Customers",
-        "projectPath": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers\\Banshee.Customers.csproj",
+        "projectPath": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers\\Banshee.Customers.csproj",
         "packagesPath": "C:\\Users\\JorgeTaborda\\.nuget\\packages\\",
-        "outputPath": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers\\obj\\",
+        "outputPath": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -180,11 +180,11 @@
         "frameworks": {
           "netcoreapp2.2": {
             "projectReferences": {
-              "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj": {
-                "projectPath": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj"
+              "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj": {
+                "projectPath": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Domain\\Banshee.Customers.Domain.csproj"
               },
-              "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Infraestructure\\Banshee.Customers.Infraestructure.csproj": {
-                "projectPath": "D:\\JorgeG\\Fuentes\\banshee-customers\\banshee-customers\\Banshee.Customers.Infraestructure\\Banshee.Customers.Infraestructure.csproj"
+              "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Infraestructure\\Banshee.Customers.Infraestructure.csproj": {
+                "projectPath": "D:\\JorgeG\\Fuentes\\GIT_Personal\\banshee-customers\\banshee-customer-api\\Banshee.Customers.Infraestructure\\Banshee.Customers.Infraestructure.csproj"
               }
             }
           }
@@ -222,6 +222,10 @@
             "Microsoft.OpenApi": {
               "target": "Package",
               "version": "[1.1.4, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

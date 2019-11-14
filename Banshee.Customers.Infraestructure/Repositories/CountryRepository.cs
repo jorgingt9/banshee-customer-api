@@ -27,14 +27,14 @@ namespace Banshee.Customers.Infraestructure.Repositories
 
         public async Task<IEnumerable<Country>> GetAll()
         {
-            var response = await _db.SelectAsync<CountryDataModel>("SELECT Id, Name FROM BansheeBD.dbo.Countries ORDER BY Id", new { });
+            var response = await _db.SelectAsync<CountryDataModel>("SELECT Id, Name FROM BansheeDB.dbo.Countries ORDER BY Id", new { });
 
             return _mapper.Map<IEnumerable<Country>>(response);
         }              
 
         public async Task<IEnumerable<Country>> GetById(int id)
         {
-            var sql = @"SELECT Id, Name FROM BansheeBD.dbo.Countries 
+            var sql = @"SELECT Id, Name FROM BansheeDB.dbo.Countries 
                         WHERE Id = @Id";
 
             var response = await _db.SelectAsync<CountryDataModel>(sql, new { Id = id});

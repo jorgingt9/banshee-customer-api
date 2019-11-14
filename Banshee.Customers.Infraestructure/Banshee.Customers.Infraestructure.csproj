@@ -5,6 +5,36 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Migration\Scripts\V1_0_0__create_tables.sql" />
+    <None Remove="Migration\Scripts\V1_0_1__insert_countries.sql" />
+    <None Remove="Migration\Scripts\V1_0_2__insert_states.sql" />
+    <None Remove="Migration\Scripts\V1_0_3__insert_cities.sql" />
+    <None Remove="Migration\Scripts\V1_0_4__insert_sellers.sql" />
+    <None Remove="Migration\Scripts\V1_0_5__insert_customers.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Migration\Scripts\V1_0_0__create_tables.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Migration\Scripts\V1_0_1__insert_countries.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Migration\Scripts\V1_0_2__insert_states.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Migration\Scripts\V1_0_3__insert_cities.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Migration\Scripts\V1_0_4__insert_sellers.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Migration\Scripts\V1_0_5__insert_customers.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="AutoMapper" Version="9.0.0" />
     <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="Dapper" Version="2.0.30" />
@@ -15,10 +45,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Banshee.Customers.Domain\Banshee.Customers.Domain.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Migration\Scripts\" />
   </ItemGroup>
 
 </Project>

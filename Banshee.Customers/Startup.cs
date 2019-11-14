@@ -45,14 +45,20 @@ namespace Banshee.Customers
             //});
 
             // Register the Swagger generator, defining 1 or more Swagger documents
-            //services.AddSwaggerGen(c =>
-            //{
-            //    c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
-            //});
-
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info { Title = "My API", Version = "v1" });
+                c.SwaggerDoc("v1", new Info
+                {
+                    Version = "v1",
+                    Title = "Banshee Customer API",
+                    Description = "API que permite el mantenimiento de la información de los clientes de la empresa Banshee",
+                    TermsOfService = "None",
+                    Contact = new Contact
+                    {
+                        Name = "Jorge Gallego",
+                        Email = "jorge.gallego@10pearls.com"
+                    }
+                });
             });
 
             services.Configure<AppSettings>(Configuration);
@@ -89,7 +95,7 @@ namespace Banshee.Customers
             // Enable middleware to serve RedDoc (HTML, JS, CSS, etc.)
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Banshee Customer API");
                 c.RoutePrefix = string.Empty;
             });
 
