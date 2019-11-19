@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Banshee.Customers.Domain.Entities
 {
-    public class Customer
+    public class Customer 
     {
         public int Id { get; set; }
         public string Nit { get; set; }

@@ -3,8 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Banshee.Customers.Domain.Entities;
+using Banshee.Customers.Domain.Exceptions;
 using Banshee.Customers.Domain.Interfaces;
 using Banshee.Customers.Dto;
+using Banshee.Customers.Filters;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -75,6 +77,7 @@ namespace Banshee.Customers.Controllers
         /// <response code="200">Cliente creado</response>
         /// <response code="400">No se crea el cliente</response>
         /// <response code="404">Error al invocar servicio</response> 
+        [ValidateModelAttribute]
         [HttpPost]
         [ProducesResponseType(typeof(bool), 200)]
         [ProducesResponseType(typeof(string), 400)]
@@ -83,10 +86,7 @@ namespace Banshee.Customers.Controllers
         {
             try
             {
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest(ModelState);
-                }
+
 
                 return Ok(await _customerService.Save(value));
             }
@@ -99,25 +99,29 @@ namespace Banshee.Customers.Controllers
         /// <summary>
         /// Actualiza un elemento de tipo Customer
         /// </summary>
+        /// <param name="id">id del cliente</param>
         /// <param name="value">Entidad cliente</param>
         /// <returns>bool - True: Actualiza el cliente - False: No actualizo el cliente</returns>
         /// <response code="200">Cliente actualizado</response>
         /// <response code="400">Product has missing/invalid values</response>
         /// <response code="404">Error al invocar servicio</response> 
+        [ValidateModelAttribute]
         [HttpPut]
         [ProducesResponseType(typeof(bool), 200)]
         [ProducesResponseType(typeof(string), 400)]
         [ProducesResponseType(typeof(string), 404)]
-        public async Task<IActionResult> Put([FromBody] Customer value)
+        public async Task<IActionResult> Put(int id, [FromBody] Customer value)
         {
             try
             {
-                if (!ModelState.IsValid)
-                {
-                    return BadRequest(ModelState);
-                }
+                var customer = await _customerService.ValidateCustomer(id);
+                value.Id = id;
 
                 return Ok(await _customerService.Update(value));
+            }
+            catch (CustomerNotFoundException e)
+            {
+                return NotFound(new ErrorResponseDto() { Code = "U404", Message = e.Message});
             }
             catch (Exception e)
             {

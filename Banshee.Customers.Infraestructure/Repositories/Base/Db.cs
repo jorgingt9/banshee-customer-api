@@ -103,8 +103,8 @@ namespace Banshee.Customers.Infraestructure.Repositories.Base
         {
             try
             {
-                //var migrater = MigrationFactory.Build(Connection);
-                //migrater.ExecuteCommand();
+                var migrater = MigrationFactory.Build(Connection);
+                migrater.ExecuteCommand();
             }
             catch (Exception e)
             {
